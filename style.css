@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.device {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.device h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.controls {
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button.on {
+    background-color: #4CAF50;
+    color: #fff;
+
+}
+button.on:hover
+{
+    box-shadow: 10px 10px 10px rgba(97, 93, 93, 0.1);
+    background-color: #2196F3;
+
+}
+
+button.off {
+    background-color: #f44336;
+    color: #fff;
+}
+button.off:hover{
+    background-color: #2196F3;
+    box-shadow: 10px 10px 10px rgba(97, 93, 93, 0.1);
+}
+
+input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button.set {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
